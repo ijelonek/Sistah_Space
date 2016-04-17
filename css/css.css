@@ -1,4 +1,12 @@
 
+body {
+
+
+}
+
+.container {
+
+}
 
 .centre {
 	text-align: center;
@@ -9,39 +17,30 @@
 	background-color: yellow;
 }
 
+
 .help_buttons {
-	width: 250px;
-	height:250px;
-	margin: 10px 20px 10px 20px;
-	border-radius: 50%;
-	border:10px solid #cfdcec;
-	text-align:center;
-	color:#e2eaf3;
-    font-family:Verdana;
-    font-size:1.2em;
-    font-weight:bold;
-    text-decoration:none;
+text-align: center;
+border: 2px solid black;
+padding:10px;
 
 }
 
 
-
-.help_buttons:hover {
-	background:#30588e;
-	margin: auto;
-
-	
-}
-
-.button_row{
-	display: inline-block;
-
-}
 
 #my-navbar {
 	background-color: green;
+	border: none;
 }
 
 .nav{
 	font: red;
+}
+
+.footer {
+	background-color: green;
+	padding-top:20px;
+}
+
+.leave {
+	margin-top: 10px;
 }
