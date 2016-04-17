@@ -1,0 +1,47 @@
+
+
+.centre {
+	text-align: center;
+}
+
+
+.yellow {
+	background-color: yellow;
+}
+
+.help_buttons {
+	width: 250px;
+	height:250px;
+	margin: 10px 20px 10px 20px;
+	border-radius: 50%;
+	border:10px solid #cfdcec;
+	text-align:center;
+	color:#e2eaf3;
+    font-family:Verdana;
+    font-size:1.2em;
+    font-weight:bold;
+    text-decoration:none;
+
+}
+
+
+
+.help_buttons:hover {
+	background:#30588e;
+	margin: auto;
+
+	
+}
+
+.button_row{
+	display: inline-block;
+
+}
+
+#my-navbar {
+	background-color: green;
+}
+
+.nav{
+	font: red;
+}
