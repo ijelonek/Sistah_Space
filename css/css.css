@@ -14,8 +14,9 @@ body {
 
 
 .yellow {
-	background-color: yellow;
+	background-color: #E3E166;
 }
+
 
 
 .help_buttons {
@@ -28,19 +29,30 @@ padding:10px;
 
 
 #my-navbar {
-	background-color: green;
+	background-color: #48C42F;
 	border: none;
 }
 
-.nav{
-	font: red;
-}
 
 .footer {
-	background-color: green;
+	background-color: #48C42F;
 	padding-top:20px;
 }
 
 .leave {
 	margin-top: 10px;
+}
+
+.red{
+	background-color: red;
+}
+
+
+.green {
+	background-color: green;
+}
+
+
+.yellow {
+	background-color: yellow;
 }
