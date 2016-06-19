@@ -1,6 +1,10 @@
 
 body {
 
+/* background-image: url("../images/4.JPG"); */
+background-color: #E3E166; 
+
+
 
 }
 
@@ -19,6 +23,18 @@ body {
 }
 
 
+.green {
+
+	background-color: #10632F;
+
+}
+
+
+.red {
+
+}
+
+
 
 .help_buttons {
 text-align: center;
@@ -30,13 +46,13 @@ padding:10px;
 
 
 #my-navbar {
-	background-color: #48C42F;
+	background-color: #10632F;
 	border: none;
 }
 
 
 .footer {
-	background-color: #48C42F;
+	background-color: #10632F;
 	padding-top:20px;
 }
 
@@ -45,5 +61,9 @@ padding:10px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
-	color: red;
+	color: #F2E44B;
+}
+
+#our-journey {
+
 }
