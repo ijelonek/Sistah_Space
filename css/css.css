@@ -60,3 +60,64 @@ padding:10px;
 	text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+
+.social {
+	display: none;
+	position:absolute;
+	right: 0;
+	padding: 20px;
+	z-index: 1;
+}
+
+.btn-social {
+	margin-left: 10px;
+	border-radius: 10px;
+	height: 40px;
+	width: 87px;
+
+}
+
+@media (min-width: 640px) {
+	.social {
+		display: block;
+	}
+	.help {
+		display: block;
+	}
+}
+
+.help {
+	display: flex;
+	list-style: none;
+	padding: 10px;
+
+}
+
+.help li {
+	background: white;
+	flex: 1;
+	
+	
+}
+
+
+.escape {
+	position: absolute;
+	left: 0;
+}
+
+.slider-title{
+	display: block;
+	position: absolute;
+	left: 
+	z-index: 2
+
+}
+
+
+.picture-holder{
+	background-color: white;
+}
+>>>>>>> refs/remotes/origin/master
