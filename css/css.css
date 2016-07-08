@@ -1,7 +1,8 @@
 
 body {
-	background-color: #E3E166; 
+	background-color: #E3E166;
 	padding-top: 50px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .container-main {
@@ -14,7 +15,7 @@ body {
 
 
 .yellow {
-	background-color: #E3E166; 
+	background-color: #E3E166;
 }
 
 
@@ -86,7 +87,7 @@ footer {
 	#escape {
 		display: block;
 
-	}	
+	}
 }
 
 
@@ -111,3 +112,9 @@ footer {
 #myCarousel {
 	border: solid black 18px;
 }
+
+
+
+.inner-column {
+    padding:25px;
+	}
