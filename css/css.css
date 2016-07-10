@@ -113,8 +113,10 @@ footer {
 	border: solid black 18px;
 }
 
-
-
 .inner-column {
-    padding:25px;
+    padding:30px;
+	}
+
+	.inner-padding {
+		padding-top:15px
 	}
