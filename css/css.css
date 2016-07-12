@@ -7,6 +7,12 @@ body {
 
 }
 
+
+#our-work {
+background-color: #ffffff;
+}
+
+
 .container-main {
 	background-color:white ;
 }
@@ -130,4 +136,5 @@ footer {
 	}
 	.standout {
 		padding-bottom:30px;
+		
 	}
