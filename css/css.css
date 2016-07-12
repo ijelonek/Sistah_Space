@@ -135,6 +135,7 @@ footer {
 		padding-top:15px
 	}
 	.standout {
-		padding-bottom:30px;
-		
-	}
+		padding: 15px;
+	  background-color: #E3E166;important;
+
+			}
