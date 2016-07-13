@@ -132,10 +132,15 @@ footer {
 	}
 
 	.inner-padding {
-		padding-top:15px
+		padding-top:15px;
 	}
-	.standout {
-		padding: 15px;
-	  background-color: #E3E166;important;
 
-			}
+	.jumbotron{
+		background-image:url(http://res.cloudinary.com/emma-d/image/upload/v1468014614/10492122_1102733856416995_4388009129010759247_n_oixuvp.jpg);important;
+		background-size:cover;
+}
+.jumbotron h2{
+    color: #fff;
+}
+.jumbotron h4{
+    color: #fff;
