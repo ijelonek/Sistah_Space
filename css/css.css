@@ -12,6 +12,11 @@ body {
 background-color: #ffffff;
 }
 
+.main-copy h2 {
+	color: #E3E166;
+}
+
+
 
 .container-main {
 	background-color:white ;
@@ -135,12 +140,15 @@ footer {
 		padding-top:15px;
 	}
 
-	.jumbotron{
-		background-image:url(http://res.cloudinary.com/emma-d/image/upload/v1468014614/10492122_1102733856416995_4388009129010759247_n_oixuvp.jpg);important;
-		background-size:cover;
-}
-.jumbotron h2{
-    color: #fff;
-}
-.jumbotron h4{
-    color: #fff;
+  .jumbotron{
+    background-image:url(http://res.cloudinary.com/emma-d/image/upload/v1468014614/10492122_1102733856416995_4388009129010759247_n_oixuvp.jpg);important;
+    background-size:cover;
+        }
+
+  .jumbotron h2{
+      color: #fff;
+		}
+
+	.jumbotron h4{
+     color: #fff;
+	 }
