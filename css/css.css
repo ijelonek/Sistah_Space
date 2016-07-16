@@ -1,21 +1,33 @@
 
 body {
-
-	background-color: #E3E166;
-	padding-top: 50px;
+	
+	padding-top: 0px;
 	font-family: 'Open Sans', sans-serif;
+	background-color: #DBD823;
 
 }
+
 
 
 #our-work {
 background-color: #ffffff;
 }
 
-.main-copy h2 {
-	color: #E3E166;
+
+.main-copy {
+	background-color:white;
+	padding: 50px;
+	margin-top: 0px;
 }
 
+.main-copy h2 {
+	color: #F01616;
+	
+}
+
+.grey {
+	color: #C9C9BB;
+}
 
 
 .container-main {
@@ -40,16 +52,16 @@ background-color: #ffffff;
 
 
 .red {
-	background-color: red;
+	background-color: #F70A0A;
 }
 
 .navbar-toggle {
-	background-color: #E3E166;
-	border-color: red;
+	background-color: #DBD823;
+	border-color: #10632F;
 }
 
 button span {
-	background-color: red;
+	background-color: #10632F ;
 }
 
 .help_buttons {
@@ -57,7 +69,7 @@ text-align: center;
 border: 2px solid black;
 padding:18px;
 color: black;
-
+		
 }
 
 .nav, .nav ul li {
@@ -156,4 +168,20 @@ footer {
 	 }
 
 
+.jumbotron  {
+	background-color: #DBD823;
+}
 
+.jumbotron .text-area {
+	background-color: #F01616;
+}
+
+.jumbotron img {
+	border-radius: 3px;
+	border: solid #C9C9BB 2px; */
+
+
+
+hr {
+	color: red;
+}
