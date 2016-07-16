@@ -136,15 +136,17 @@ footer {
     padding:30px;
 	}
 
-	.inner-padding {
-		padding-top:15px;
+.inner-padding {
+	padding-top:15px;
 	}
 
-  
-  .jumbotron h2{
-      color: #fff;
-		}
+.jumbotron h2{
+    color: #fff;
+	}
 
-	.jumbotron h4{
+.jumbotron h4{
      color: #fff;
 	 }
+
+
+
