@@ -140,9 +140,16 @@ footer {
 	padding-top:15px;
 	}
 
+<<<<<<< Updated upstream
 .jumbotron h2{
     color: #fff;
 	}
+=======
+
+  .jumbotron h2{
+      color: #fff;
+		}
+>>>>>>> Stashed changes
 
 .jumbotron h4{
      color: #fff;
