@@ -3,7 +3,7 @@ body {
 
 	padding-top: 0px;
 	font-family: 'Open Sans', sans-serif;
-	background-color: #DBD823;
+	background-color: #E6E69A;
 
 }
 
@@ -35,6 +35,8 @@ background-color: #ffffff;
 
 .container-main {
 	background-color:white ;
+	padding-top:0px;
+	margin-top: 0px;
 }
 
 .centre {
@@ -155,24 +157,24 @@ footer {
 	padding-top:15px;
 	}
 
-<<<<<<< Updated upstream
-.jumbotron h2{
-    color: #fff;
-	}
-=======
 
-  .jumbotron h2{
-      color: #fff;
-		}
->>>>>>> Stashed changes
+.jumbotron h2{
+    color: #E8E8DF;
+	}
+
 
 .jumbotron h4{
-     color: #fff;
+     color: #D2D5D6;
 	 }
 
+.emphasise {
+	font-style: italic;
+}
 
 .jumbotron  {
-	background-color: #DBD823;
+	background-color: #E6E69A;
+	padding-bottom: 0px;
+
 }
 
 .jumbotron .text-area {
@@ -181,10 +183,13 @@ footer {
 
 .jumbotron img {
 	border-radius: 3px;
-	border: solid #C9C9BB 2px; */
+	border: solid #C9C9BB 2px; 
 
+}
 
-
+<<<<<<< Updated upstream
 hr {
 	color: red;
 }
+=======
+>>>>>>> Stashed changes
