@@ -8,7 +8,7 @@ body {
 }
 
 
-
+/*is this doing anything?*/
 #our-work {
 background-color: #ffffff;
 }
@@ -24,8 +24,6 @@ background-color: #ffffff;
 	color: #F01616;
 
 }
-
-
 
 
 .grey {
@@ -183,9 +181,11 @@ footer {
 
 .jumbotron img {
 	border-radius: 3px;
-	border: solid #C9C9BB 2px; 
+	border: solid #C9C9BB 2px;
 
 }
+
+
 
 <<<<<<< Updated upstream
 hr {
