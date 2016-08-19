@@ -83,10 +83,18 @@ color: black;
 	border: none;
 	color:yellow;
 
+
+}
+
+.nav ul li a:hover{
+	border: none;
+	color:black;
+	
+
 }
 
 .navbar-brand {
-	color:black;
+	color:yellow;
 }
 
 
@@ -113,7 +121,30 @@ footer {
 
 }
 
+
+.carousel-caption {
+	display: none;
+	
+}
+
+.mobile-only {
+	display: inline;
+}
+
+.mobile-only h2 {
+	text-align: center;
+}
+
+.mobile-only p {
+	text-align:justify;
+}
+
+
+
 @media (min-width: 640px) {
+	.carousel-caption {
+		display: inline;
+	}
 	.social {
 		display: block;
 	}
@@ -121,7 +152,12 @@ footer {
 		display: block;
 
 	}
+	.mobile-only {
+		display:none;
+	}
 }
+
+
 
 
 .escape {
@@ -187,9 +223,4 @@ footer {
 
 
 
-<<<<<<< Updated upstream
-hr {
-	color: red;
-}
-=======
->>>>>>> Stashed changes
+
