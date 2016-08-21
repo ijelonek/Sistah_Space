@@ -17,7 +17,7 @@ background-color: #ffffff;
 .main-copy {
 	background-color:white;
 	padding: 50px;
-	margin-top: 0px;
+	margin-top: -20px;
 }
 
 .main-copy h2 {
@@ -75,20 +75,29 @@ color: black;
 
 }
 
-.nav, .nav ul li {
+.nav, .nav  {
 	background-color: #10632F;
 }
 
 .nav ul li a{
 	border: none;
-	color:yellow;
+	color:black;
 
+
+}
+
+.nav ul li a:hover {
+	color: red;
+	font-weight: bold;
 }
 
 .navbar-brand {
-	color:black;
+	color:yellow;
 }
 
+.navbar-brand:hover {
+	color:black;
+}
 
 footer {
 	background-color: #10632F;
@@ -113,13 +122,31 @@ footer {
 
 }
 
+
+.carousel-caption {
+	display: none;
+}
+
+.mobile-only {
+	display: inline;
+}
+
+
+
 @media (min-width: 640px) {
+	.mobile-only {
+		display:none;
+	}
 	.social {
 		display: block;
 	}
 	#escape {
 		display: block;
 
+	}
+
+	.carousel-caption {
+		display: inline;
 	}
 }
 
@@ -143,6 +170,9 @@ footer {
 	background-color: red;
 }
 
+.valerie {
+	size:100%;
+}
 
 
 .inner-column {
@@ -185,9 +215,3 @@ footer {
 
 
 
-<<<<<<< Updated upstream
-hr {
-	color: red;
-}
-=======
->>>>>>> Stashed changes
