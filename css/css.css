@@ -17,7 +17,7 @@ background-color: #ffffff;
 .main-copy {
 	background-color:white;
 	padding: 50px;
-	margin-top: 0px;
+	margin-top: -20px;
 }
 
 .main-copy h2 {
@@ -75,28 +75,38 @@ color: black;
 
 }
 
-.nav, .nav ul li {
+.nav, .nav  {
 	background-color: #10632F;
 }
 
 .nav ul li a{
 	border: none;
-	color:yellow;
+	color:black;
+
 
 
 }
 
+<<<<<<< HEAD
 .nav ul li a:hover{
 	border: none;
 	color:black;
 	
 
+=======
+.nav ul li a:hover {
+	color: red;
+	font-weight: bold;
+>>>>>>> master
 }
 
 .navbar-brand {
 	color:yellow;
 }
 
+.navbar-brand:hover {
+	color:black;
+}
 
 footer {
 	background-color: #10632F;
@@ -126,13 +136,17 @@ footer {
 
 .carousel-caption {
 	display: none;
+<<<<<<< HEAD
 	
+=======
+>>>>>>> master
 }
 
 .mobile-only {
 	display: inline;
 }
 
+<<<<<<< HEAD
 .mobile-only h2 {
 	text-align: center;
 }
@@ -146,6 +160,13 @@ footer {
 @media (min-width: 640px) {
 	.carousel-caption {
 		display: inline;
+=======
+
+
+@media (min-width: 640px) {
+	.mobile-only {
+		display:none;
+>>>>>>> master
 	}
 	.social {
 		display: block;
@@ -154,8 +175,14 @@ footer {
 		display: block;
 
 	}
+<<<<<<< HEAD
 	.mobile-only {
 		display:none;
+=======
+
+	.carousel-caption {
+		display: inline;
+>>>>>>> master
 	}
 }
 
@@ -181,6 +208,9 @@ footer {
 	background-color: red;
 }
 
+.valerie {
+	size:100%;
+}
 
 
 .inner-column {
@@ -223,11 +253,14 @@ footer {
 
 
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 .picture-holder{
 	background-color: white;
 }
 >>>>>>> refs/remotes/origin/master
+=======
+>>>>>>> master
 =======
 >>>>>>> master
