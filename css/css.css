@@ -4,15 +4,15 @@ body {
 
 	padding-top: 0px;
 	font-family: 'Open Sans', sans-serif;
-	background-color: #E6E69A;
 
 }
 
-
-/*is this doing anything?*/
-#our-work {
-background-color: #ffffff;
+.h-title-yellow {
+	color: red;
 }
+
+}
+
 
 
 .main-copy {
@@ -49,7 +49,7 @@ background-color: #ffffff;
 
 
 .green {
-	background-color: #10632F;
+	background-color: #009900;
 }
 
 
@@ -76,13 +76,14 @@ color: black;
 
 }
 
+
 .nav, .nav  {
-	background-color: #10632F;
+	background-color: #009900;
 }
 
 .nav ul li a{
 	border: none;
-	color:black;
+	color: #1a1a00;
 
 
 }
@@ -101,7 +102,7 @@ color: black;
 }
 
 footer {
-	background-color: #10632F;
+	background-color: #009900;
 	padding-top:20px;
 
 }
@@ -122,6 +123,18 @@ footer {
 	width: 87px;
 
 }
+
+
+.facebook{
+	background-color: #3b5998;
+	color: white;
+}
+
+.twitter {
+		background-color: #55acee;
+	color: white;
+}
+
 
 
 .carousel-caption {
@@ -156,23 +169,22 @@ footer {
 	display: none;
 	position: absolute;
 	left: 0;
-	height:80px;
-	width: 80px;
+	height:100px;
+	width: 100px;
 	margin:10px;
-	border-radius: 4px;
-	background-color: red;
-	border: solid 2px black;
-	color:black;
+	border-radius: 50px;
+	background-color: #8c1aff;
+	border: dotted 2px white;
+	color: #d1e0e0;
 	z-index: 1;
 	}
 
 
-.picture-holder{
-	background-color: red;
-}
 
 .valerie {
 	size:100%;
+	border-radius: 2px;
+	border: 5px solid grey;
 }
 
 
@@ -186,12 +198,12 @@ footer {
 
 
 .jumbotron h2{
-    color: #E8E8DF;
+    color: #00802b;
 	}
 
 
 .jumbotron h4{
-     color: #D2D5D6;
+     color: #00802b;
 	 }
 
 .emphasise {
@@ -199,13 +211,14 @@ footer {
 }
 
 .jumbotron  {
-	background-color: #E6E69A;
+	background-color: white;
 	padding-bottom: 0px;
 
 }
 
 .jumbotron .text-area {
-	background-color: #F01616;
+	background-color: #ffffb3;
+	
 }
 
 .jumbotron img {
@@ -221,5 +234,37 @@ footer {
 
 .logo {
 	height: auto;
-	width: 40%;
+	width: 55%;
+}
+
+#panel-yellow {
+	border: dotted black 2px;
+	background-color: #ffff66;
+}
+
+#panel-red {
+	border: dotted  black 2px;
+	background-color:  #ff6666;
+}
+
+#panel-green {
+	border: dotted black 2px;
+	background-color: #66ff66
+;
+}
+
+.panel-title {
+	font-weight: bold;
+}
+
+
+.link{
+	color: #3333ff;
+}
+
+.portrait {
+	display: block;
+	padding-top: 40px;
+	margin: auto;
+
 }
