@@ -7,13 +7,37 @@ body {
 
 }
 
-.h-title-yellow {
+h2{
 	color: red;
+	font-family: 'Amatic SC', bold;
+	font-size: 40px;
+	font-weight: bold;
 }
 
+
+h1{
+	font-family: 'Dancing Script', cursive;
+	font-size: 70px;
+	color: #ffd633;
+	font-weight: bold;
+
+}
+.news-field{
+	background-color:  #ffe066;
+	border-radius: 10px;
+	border: solid #ffd633 2px;
+
 }
 
+.date-and-time li{
+	display: inline;
+	list-style: none;
+}
 
+.header {
+	margin-left: 0px;
+	margin-right: 0px;
+}
 
 .main-copy {
 	background-color:white;
@@ -23,7 +47,6 @@ body {
 
 .main-copy h2 {
 	color: #F01616;
-
 }
 
 
@@ -44,7 +67,7 @@ body {
 
 
 .yellow {
-	background-color: #E3E166;
+	background-color: #ffd633;
 }
 
 
@@ -84,6 +107,8 @@ color: black;
 .nav ul li a{
 	border: none;
 	color: #1a1a00;
+	margin-left: 10px;
+	margin-right: 10px;
 
 
 }
@@ -94,7 +119,10 @@ color: black;
 }
 
 .navbar-brand {
-	color:yellow;
+	color:#ffd633;;
+	font-family: 'Dancing Script', cursive;	
+	font-size:26px;
+	font-weight: bold;
 }
 
 .navbar-brand:hover {
@@ -167,7 +195,7 @@ footer {
 
 .escape {
 	display: none;
-	position: absolute;
+	position: fixed;
 	left: 0;
 	height:100px;
 	width: 100px;
@@ -238,24 +266,29 @@ footer {
 	width: 55%;
 }
 
+.panel a {
+	color:white;
+}
+
 #panel-yellow {
 	border: dotted black 2px;
-	background-color: #ffff66;
+	background-color: #ffbb33;
 }
 
 #panel-red {
 	border: dotted  black 2px;
-	background-color:  #ff6666;
+	background-color:  #c32602;
 }
 
 #panel-green {
 	border: dotted black 2px;
-	background-color: #66ff66
-;
+	background-color: #00cc00;
 }
 
 .panel-title {
 	font-weight: bold;
+	font-size:40px;
+	color:white;
 }
 
 
@@ -278,3 +311,4 @@ footer {
 .ebay-logo{
 	width: 130px;
 }
+
