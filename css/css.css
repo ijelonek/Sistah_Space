@@ -34,11 +34,6 @@ h1{
 	list-style: none;
 }
 
-.header {
-	margin-left: 0px;
-	margin-right: 0px;
-}
-
 .main-copy {
 	background-color:white;
 	padding: 50px;
@@ -75,16 +70,23 @@ h1{
 	background-color: #009900;
 }
 
-
-
-
 .red {
 	background-color: #F70A0A;
 }
 
+ul, {
+	margin: -10px !important;
+}
+
 .navbar-toggle {
-	background-color: #DBD823;
+	background-color: #ffd633;
 	border-color: #10632F;
+	margin-right: 20px;
+}
+
+.collapse{
+	margin-top: -10px;
+	padding-top: -10px;
 }
 
 button span {
@@ -120,13 +122,17 @@ color: black;
 
 .navbar-brand {
 	color:#ffd633;;
-	font-family: 'Dancing Script', cursive;	
+	font-family: 'Dancing Script', cursive;
 	font-size:26px;
 	font-weight: bold;
 }
 
 .navbar-brand:hover {
 	color:black;
+}
+
+.navbar-header{
+	padding-left: 20px;
 }
 
 footer {
@@ -247,7 +253,7 @@ footer {
 
 .jumbotron .text-area {
 	background-color: #ffffb3;
-	
+
 }
 
 .jumbotron img {
@@ -311,4 +317,3 @@ footer {
 .ebay-logo{
 	width: 130px;
 }
-
