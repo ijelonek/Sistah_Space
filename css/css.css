@@ -115,6 +115,7 @@ color: black;
 	color: white;
 	margin-left: 10px;
 	margin-right: 10px;
+	font-size: 13px;
 }
 
 .nav ul li a:last-child{
@@ -409,9 +410,9 @@ footer {
 	}
 }
 
-@media (min-width: 768px) and (max-width: 780px){
+@media (min-width: 768px) and (max-width: 800px){
 	.nav ul li a{
-		margin-right: 9px;
-		margin-left: 9px;
+		margin-right: 5px;
+		margin-left: 4px;
 	}
 }
