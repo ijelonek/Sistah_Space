@@ -4,7 +4,7 @@ body {
 
 	padding-top: 0px;
 	font-family: 'Open Sans', sans-serif;
-
+  -webkit-font-smoothing: antialiased;
 }
 
 h2{
@@ -81,7 +81,11 @@ ul, {
 .navbar-toggle {
 	background-color: #ffd633;
 	border-color: #10632F;
-	margin-right: 20px;
+	margin-right: 0;
+}
+
+.navbar-nav{
+	margin-top: 0;
 }
 
 .collapse{
@@ -108,23 +112,33 @@ color: black;
 
 .nav ul li a{
 	border: none;
-	color: #1a1a00;
+	color: white;
 	margin-left: 10px;
 	margin-right: 10px;
-
-
 }
 
-.nav ul li a:hover {
-	color: red;
-	font-weight: bold;
+.nav ul li a:last-child{
+	margin-right: 0;
+}
+
+.nav ul li a:hover, .nav ul li a:focus, .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+	color: #ffd633;
+	background-color: transparent;
+	border: 0;
+}
+
+
+.navbar-nav>li>.dropdown-menu{
+	background-color: #10632F;
+	margin-top: -1px;
 }
 
 .navbar-brand {
-	color:#ffd633;;
+	color:#ffd633;
 	font-family: 'Dancing Script', cursive;
 	font-size:26px;
 	font-weight: bold;
+	padding: 15px 0;
 }
 
 .navbar-brand:hover {
@@ -132,7 +146,7 @@ color: black;
 }
 
 .navbar-header{
-	padding-left: 20px;
+	margin: 0!important;
 }
 
 footer {
@@ -316,4 +330,88 @@ footer {
 
 .ebay-logo{
 	width: 130px;
+}
+
+
+
+/* entire container, keeps perspective */
+.card {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.card:hover .card-content, .card.hover .card-content {
+		transform: rotateX(180deg);
+	}
+
+.card, .card-front, .card-back {
+	width: 100%;
+	height: 144px;
+}
+
+.panel{
+	width: 100%;
+	height: 144px;
+}
+
+.card .card-content {
+		transform-origin: 100% 72px; /* half of height */
+	}
+
+/* flip speed goes here */
+.card-content {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+/* hide back of pane during swap */
+.card-front, .card-back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.card-front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateX(0deg);
+}
+
+/* back, initially hidden pane */
+.card-back {
+	transform: rotateX(180deg);
+}
+
+
+
+
+
+
+@media (min-width: 768px){
+	.container {
+	    width: 100%;
+	}
+}
+
+@media (max-width: 769px){
+	.nav {
+		padding: 0 15px;
+	}
+	.carousel-inner{
+		margin-top: 18px;
+	}
+	.navbar-collapse{
+		clear: left;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 780px){
+	.nav ul li a{
+		margin-right: 9px;
+		margin-left: 9px;
+	}
 }
