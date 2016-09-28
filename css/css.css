@@ -118,6 +118,7 @@ color: black;
 	color: white;
 	margin-left: 10px;
 	margin-right: 10px;
+	font-size: 13px;
 }
 
 .nav ul li a:last-child{
@@ -488,11 +489,18 @@ footer {
 
 }
 
+<<<<<<< HEAD
 
 
 @media (min-width: 1100px){
 	.container-main{
 		width: 960px;
 		margin: 0 auto;
+=======
+@media (min-width: 768px) and (max-width: 800px){
+	.nav ul li a{
+		margin-right: 5px;
+		margin-left: 4px;
+>>>>>>> origin/gh-pages
 	}
 }
