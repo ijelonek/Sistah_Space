@@ -26,6 +26,7 @@ h1{
 	background-color:  #ffe066;
 	border-radius: 10px;
 	border: solid #ffd633 2px;
+	padding: 15px;
 
 }
 
@@ -54,6 +55,8 @@ h1{
 	background-color:white ;
 	padding-top:0px;
 	margin-top: 0px;
+	width: auto;
+	margin: 70px;
 }
 
 .centre {
@@ -157,18 +160,29 @@ footer {
 
 
 .social {
-	display: none;
+	padding: 10px;
+	border: 0;
+	z-index: 1;
+}
+
+.social-header{
+	display:none;
 	position:absolute;
 	right: 0;
-	padding: 10px;
-	z-index: 1;
+}
+
+.social-intro{
+	display: block;
+	text-align: center;
 }
 
 .btn-social {
 	margin-left: 10px;
 	border-radius: 10px;
+	border: 0;
 	height: 40px;
 	width: 87px;
+	font-weight: bold;
 
 }
 
@@ -193,37 +207,19 @@ footer {
 	display: inline;
 }
 
-
-
-@media (min-width: 640px) {
-	.mobile-only {
-		display:none;
-	}
-	.social {
-		display: block;
-	}
-	#escape {
-		display: block;
-
-	}
-
-	.carousel-caption {
-		display: inline;
-	}
-}
-
-
 .escape {
 	display: none;
 	position: fixed;
-	left: 0;
+	right: 0;
+	bottom: 50px;
 	height:100px;
 	width: 100px;
 	margin:10px;
 	border-radius: 50px;
-	background-color: #8c1aff;
-	border: dotted 2px white;
-	color: #d1e0e0;
+	background-color: #333;
+	border: 0;
+	color: white;
+	font-weight: bold;
 	z-index: 1;
 	}
 
@@ -286,29 +282,53 @@ footer {
 	width: 55%;
 }
 
-.panel a {
-	color:white;
+.card-container{
+	margin: 0 20px;
 }
 
-#panel-yellow {
+.card{
+	width: 100%;
+	max-width: 400px;
+	margin: 0px auto 20px;
 	border: dotted black 2px;
+	padding: 15px;
+}
+
+.card-front, .card-back {
+	color:white;
+	text-align: center;
+}
+
+.card-front{
+	margin-bottom: 10px;
+}
+
+.card-text{
+	font-size: 16px;
+}
+
+.card-link{
+	color: white;
+}
+
+.card-yellow{
 	background-color: #ffbb33;
 }
 
-#panel-red {
-	border: dotted  black 2px;
+.card-red{
 	background-color:  #c32602;
 }
 
-#panel-green {
-	border: dotted black 2px;
+.card-green {
 	background-color: #00cc00;
 }
 
-.panel-title {
+.card-title {
 	font-weight: bold;
 	font-size:40px;
 	color:white;
+	margin: 0;
+	line-height: 1em;
 }
 
 
@@ -332,72 +352,40 @@ footer {
 	width: 130px;
 }
 
-
-
-/* entire container, keeps perspective */
-.card {
-	perspective: 1000px;
-}
-	/* flip the pane when hovered */
-	.card:hover .card-content, .card.hover .card-content {
-		transform: rotateX(180deg);
-	}
-
-.card, .card-front, .card-back {
-	width: 100%;
-	height: 144px;
-}
-
-.panel{
-	width: 100%;
-	height: 144px;
-}
-
-.card .card-content {
-		transform-origin: 100% 72px; /* half of height */
-	}
-
-/* flip speed goes here */
-.card-content {
-	transition: 0.6s;
-	transform-style: preserve-3d;
-
-	position: relative;
-}
-
-/* hide back of pane during swap */
-.card-front, .card-back {
-	backface-visibility: hidden;
-
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-/* front pane, placed above back */
-.card-front {
-	z-index: 2;
-	/* for firefox 31 */
-	transform: rotateX(0deg);
-}
-
-/* back, initially hidden pane */
-.card-back {
-	transform: rotateX(180deg);
+.container {
+	width: auto;
 }
 
 
 
 
-
-
-@media (min-width: 768px){
-	.container {
+@media (min-width: 765px){
+	.nav .container {
 	    width: 100%;
 	}
+
+	.container-main {
+		margin: 0 100px;
+	}
+	.footer .container {
+		margin: 0 100px;
+	}
+	.mobile-only {
+		display:none;
+	}
+	.social-header {
+		display: block;
+	}
+	.social-intro{
+		display: none;
+	}
+	#escape {
+		display: block;
+
+	}
 }
 
-@media (max-width: 769px){
+@media (max-width: 766px){
 	.nav {
 		padding: 0 15px;
 	}
@@ -409,9 +397,102 @@ footer {
 	}
 }
 
-@media (min-width: 768px) and (max-width: 780px){
+@media (min-width: 765px) and (max-width: 785px){
 	.nav ul li a{
-		margin-right: 9px;
-		margin-left: 9px;
+		margin-right: 7px;
+		margin-left: 7px;
+	}
+}
+
+@media (min-width: 960px){
+ .card-container{
+	 display: flex;
+	 align-items: stretch;
+	 justify-content: space-between;
+	 margin: 0 100px;
+ }
+
+	/* entire container, keeps perspective */
+ .card {
+		perspective: 1000px;
+		width: 30%;
+		height: 144px;
+		border: 0;
+		padding: 0;
+		background-color: transparent;
+	}
+
+
+		/* flip the pane when hovered */
+		.card:hover .card-content, .card.hover .card-content {
+			transform: rotateX(180deg);
+		}
+
+	.card-front, .card-back {
+		width: 100%;
+		height: 144px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		border: dotted black 2px;
+		padding: 15px;
+	}
+
+	.card-yellow .card-front, .card-yellow .card-back{
+		background-color: #ffbb33;
+	}
+
+	.card-red .card-front, .card-red .card-back{
+		background-color:  #c32602;
+	}
+
+	.card-green .card-front, .card-green .card-back{
+		background-color: #00cc00;
+	}
+
+
+	.card .card-content {
+			transform-origin: 100% 72px; /* half of height */
+		}
+
+	/* flip speed goes here */
+	.card-content {
+		transition: 0.6s;
+		transform-style: preserve-3d;
+
+		position: relative;
+	}
+
+	/* hide back of pane during swap */
+	.card-front, .card-back {
+		backface-visibility: hidden;
+
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	/* front pane, placed above back */
+	.card-front {
+		z-index: 2;
+		/* for firefox 31 */
+		transform: rotateX(0deg);
+		margin-bottom: 0;
+	}
+
+	/* back, initially hidden pane */
+	.card-back {
+		transform: rotateX(180deg);
+	}
+
+}
+
+
+
+@media (min-width: 1100px){
+	.container-main{
+		width: 960px;
+		margin: 0 auto;
 	}
 }
