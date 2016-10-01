@@ -24,8 +24,7 @@ h1{
 }
 .news-field{
 	background-color:  #ffe066;
-	border-radius: 10px;
-	border: solid #ffd633 2px;
+	border-radius: 2px;
 	padding: 15px;
 
 }
@@ -225,11 +224,24 @@ footer {
 	}
 
 
+.valerie, .news-pic{
+	border-radius: 1px;
+	border: 1px solid grey;
+}
+
+.news-pic{
+	vertical-align:middle;
+	margin-top: 20px;
+}
 
 .valerie {
-	size:100%;
-	border-radius: 2px;
-	border: 1px solid grey;
+	margin-top: 50px
+}
+
+.logo {
+	margin-top: 50px;
+	width: 100%;
+	height: auto;
 }
 
 
@@ -273,15 +285,6 @@ footer {
 
 }
 
-
-.valerie {
-	margin-top: 50px
-}
-
-.logo {
-	height: auto;
-	width: 55%;
-}
 
 .card-container{
 	margin: 0 20px;
@@ -343,11 +346,6 @@ footer {
 	margin: auto;
 }
 
-.news-pic{
-	vertical-align:middle;
-	margin-top: 20px;
-	border: solid grey 1px;
-}
 
 .ebay-logo{
 	width: 130px;
@@ -395,6 +393,10 @@ footer {
 	}
 	.navbar-collapse{
 		clear: left;
+	}
+	.valerie{
+		max-width: 300px;
+		margin: auto;
 	}
 }
 
@@ -486,5 +488,16 @@ footer {
 	.card-back {
 		transform: rotateX(180deg);
 	}
+}
 
+@media(max-width: 991px){
+
+	.logo{
+		max-width: 220px;
+		margin: 20px auto -30px;
+		} 
+	.news-pic{
+		max-width: 350px;
+		margin: auto;
+	}
 }
