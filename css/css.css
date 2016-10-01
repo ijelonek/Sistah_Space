@@ -279,12 +279,10 @@ footer {
 
 }
 
-.jumbotron img {
-	border-radius: 3px;
-	border: solid #C9C9BB 2px;
-
+.text-area{
+	padding-right:100px;
+	padding-left: 100px;
 }
-
 
 .card-container{
 	margin: 0 20px;
