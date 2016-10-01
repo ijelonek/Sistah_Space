@@ -7,6 +7,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+h4{
+	color:black;
+}
+
 h3{
 	font-weight: bolder;
 	color: black;
@@ -14,7 +18,7 @@ h3{
 
 
 h2{
-	color: red;
+	color: #c32602;
 	font-family: 'Amatic SC', bold;
 	font-size: 40px;
 	font-weight: bold;
@@ -38,16 +42,6 @@ h1 {
 .date-and-time li{
 	display: inline;
 	list-style: none;
-}
-
-.main-copy {
-	background-color:white;
-	padding: 50px;
-	margin-top: -20px;
-}
-
-.main-copy h2 {
-	color: #F01616;
 }
 
 
@@ -79,7 +73,7 @@ h1 {
 }
 
 .red {
-	background-color: #F70A0A;
+	color: #c32602;
 }
 
 ul, {
@@ -259,21 +253,6 @@ footer {
 	padding-top:15px;
 	}
 
-
-.jumbotron h2{
-    color: #00802b;
-	}
-
-
-.jumbotron h4{
-     color:  #3d3d5c
-;
-	 }
-
-.emphasise {
-	font-style: italic;
-}
-
 .jumbotron  {
 	background-color: white;
 	padding-bottom: 0px;
@@ -374,8 +353,8 @@ footer {
 
 @media (min-width: 767px){
 	.text-area {
-	    padding-right: 100px;
-	    padding-left: 100px;
+	    padding-right: 110px;
+	    padding-left: 110px;
 	}
 
 	.nav .container {
@@ -383,7 +362,7 @@ footer {
 	}
 
 	.container-main {
-		margin: 0 20px;
+		margin: 0 110px;
 	}
 	.footer .container{
 		margin-right:100px;
