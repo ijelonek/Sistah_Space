@@ -12,8 +12,26 @@
   <link rel="stylesheet" type="text/css" href="../css/css.css"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="faviconapple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+  <link rel="manifest" href="/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 
-  <title > Sistah Space </title>
+  <title > Shop to support Sistah Space </title>
+
   <!-- http://www.favicon-generator.org/ -->
 </head>
 
@@ -26,7 +44,7 @@
          <span class="icon-bar"></span>
          <span class="icon-bar"></span>
        </button>
-       <a href="index.html" class="navbar-brand"> Sistah Space</a>
+       <a href="../index.html" class="navbar-brand"> Sistah Space</a>
      </div>
 
      <div class="collapse navbar-collapse" id="navbar-collapse">
@@ -67,31 +85,53 @@
 
 <div class = "jumbotron">
  <button class="escape" id="escape">QUICKLY LEAVE THIS PAGE.</button>
-    <div class="social">
+    <div class="social social-header">
 
       <a href="https://www.facebook.com/Sistah-SPACE-Against-Domestic-Abuse-1655536731379576/?fref=ts&ref=br_tf&qsefr=1"  target ="_blank"> <button class="btn-social facebook" >Facebook </button></a>
       <a href="https://twitter.com/sistah_space target ="_blank""  > <button class="btn-social twitter">   Twitter</button></a>
     </div>
 
-
-    <img class = "img-responsive" src="../images/3.JPG" alt="picture">
-      <div class ="text-area">
+      <div>
         </br>
-        <h1 class = " text-center">We provide advice to victims of abuse and their families.</h1> <hr>
-        <h4 class=" text-center "> We provide support and advice to victims of domestic abuse and their family and friends. We offer guidance to everyone, regardless their gender and ethnicity.</h4> <h4 class ="text-center"></h4> <h4 class = "text-center"> </h4><br>
-      </div>
-      </div>
+        <h1 class = "text-center green"> Contact us</h1>   <hr>
 
-  <div class="container ">
-    <div class=" main-copy">
-  <h2 >Sistah Space</h2>
-  <p> Sistah Space is a safe space in our community where surviours of domestic violence and abuse can receive help and support their need.</p>
-    <p> Although Sistah Spaces caters mainly for Black heritage women we offer our help to .</p>
+        <div class = "container">
 
+       <div class="container">
+<div class="col-md-4 col-md-offset-4">
 
+    <div class="form-area">
+        <form role="form" id="contactForm">
+        <br style="clear:both">
+        <h4> Please complete this form to get in touch.</h4>
+            <div class="form-group">
+            <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="email" name="email" placeholder="Email" required>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="mobile" name="mobile" placeholder="Mobile Number" required>
+          </div>
+          <div class="form-group">
+            <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+          </div>
+                    <div class="form-group">
+                    <textarea class="form-control" type="textarea" id="message" placeholder="Message" maxlength="140" rows="7"></textarea>
 
+                    </div>
+
+        <button type="button" id="submit" name="submit" class="btn btn-primary pull-right">Submit Form</button>
+        <div id="msgSubmit" class="h3 text-center hidden">Message Submitted!</div>
+        </form>
+    </div>
 </div>
 </div>
+
+        </div>
+
+      </div>
+  </div>
 
 <footer class="footer">
   <div class="container">
@@ -103,19 +143,7 @@
 </footer>
 
 
-<script>
-  (function() {
-    function onEscapeClick() {
-      document.write('');
-      window.location = "http://youtube.co.uk"
-    }
-
-    document.getElementById('escape').addEventListener('click', onEscapeClick)
-  }())
-
-</script>
-
-
+<script type="text/javascript" src="../js/contact.js"></script>
 
 </body>
 </html>

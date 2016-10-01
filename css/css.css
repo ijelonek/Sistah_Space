@@ -7,6 +7,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+h3{
+	font-weight: bolder;
+	color: black;
+}
+
+
 h2{
 	color: red;
 	font-family: 'Amatic SC', bold;
@@ -15,13 +21,13 @@ h2{
 }
 
 
-h1{
-	font-family: 'Dancing Script', cursive;
+h1 {
+	font-family: 'Dancing Script';
 	font-size: 70px;
 	color: #ffd633;
 	font-weight: bold;
-
 }
+
 .news-field{
 	background-color:  #ffe066;
 	border-radius: 2px;
@@ -69,7 +75,7 @@ h1{
 
 
 .green {
-	background-color: #009900;
+	color: #10632F;
 }
 
 .red {
@@ -275,13 +281,18 @@ footer {
 }
 
 .jumbotron .text-area {
-	background-color: #ffffb3;
+	background-color: #ffd633;
+	opacity: 0.8
 
 }
 
 .text-area{
 	padding-right:100px;
 	padding-left: 100px;
+}
+
+.text-area .h1{
+	font-family: 'Open Sans', sans-serif;
 }
 
 .card-container{
@@ -353,10 +364,15 @@ footer {
 	width: auto;
 }
 
+.shop-desktop{
+	display:none;
+}
+.shop-mobile{
+	display: block;
+}
 
 
-
-@media (min-width: 765px){
+@media (min-width: 767px){
 	.nav .container {
 	    width: 100%;
 	}
@@ -364,9 +380,10 @@ footer {
 	.container-main {
 		margin: 0 100px;
 	}
-	.footer .container {
-		margin: 0 100px;
+	.footer .container{
+		margin-right:100px;
 	}
+
 	.mobile-only {
 		display:none;
 	}
@@ -378,7 +395,12 @@ footer {
 	}
 	#escape {
 		display: block;
-
+	}
+	.shop-desktop{
+		display:block;
+	}
+	.shop-mobile{
+		display: none;
 	}
 }
 
@@ -398,6 +420,7 @@ footer {
 	}
 }
 
+
 @media (min-width: 765px) and (max-width: 785px){
 	.nav ul li a{
 		margin-right: 7px;
@@ -406,6 +429,10 @@ footer {
 }
 
 @media (min-width: 960px){
+	.our-team-container{
+		padding-right: 250px;
+	}
+
  .card-container{
 	 display: flex;
 	 align-items: stretch;
@@ -493,7 +520,7 @@ footer {
 	.logo{
 		max-width: 220px;
 		margin: 20px auto -30px;
-		} 
+		}
 	.news-pic{
 		max-width: 350px;
 		margin: auto;
