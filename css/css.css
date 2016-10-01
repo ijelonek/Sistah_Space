@@ -287,8 +287,8 @@ footer {
 }
 
 .text-area{
-	padding-right:100px;
-	padding-left: 100px;
+	padding-right:20px;
+	padding-left: 20px;
 }
 
 .text-area .h1{
@@ -373,12 +373,17 @@ footer {
 
 
 @media (min-width: 767px){
+	.text-area {
+	    padding-right: 100px;
+	    padding-left: 100px;
+	}
+
 	.nav .container {
 	    width: 100%;
 	}
 
 	.container-main {
-		margin: 0 100px;
+		margin: 0 20px;
 	}
 	.footer .container{
 		margin-right:100px;
