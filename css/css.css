@@ -516,6 +516,10 @@ footer {
 	.card-back {
 		transform: rotateX(180deg);
 	}
+	blockquote{
+		margin-left: 30px;
+		margin-right: 30px;
+	}
 }
 
 @media(max-width: 991px){
