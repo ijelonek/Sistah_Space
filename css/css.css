@@ -7,6 +7,18 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+p{
+	font-size: 16px;
+}
+
+li{
+	font-size: 15px;
+}
+
+.intro{
+	padding-top: 10px;
+}
+
 h4{
 	color:black;
 }
@@ -155,6 +167,7 @@ color: black;
 footer {
 	background-color: #10632F;
 	padding-top:20px;
+	color: white;
 
 }
 
@@ -351,11 +364,16 @@ footer {
 	display: block;
 }
 
+@media(max-width: 650px){
+	h1{
+		font-size: 50px;
+	}
+}
 
 @media (min-width: 767px){
 	.text-area {
-	    padding-right: 110px;
-	    padding-left: 110px;
+	    padding-right: 150px;
+	    padding-left: 150px;
 	}
 
 	.nav .container {
@@ -363,7 +381,7 @@ footer {
 	}
 
 	.container-main {
-		margin: 0 110px;
+		margin: 0 150px;
 	}
 	.footer .container{
 		margin-right:100px;
