@@ -40,7 +40,8 @@ h2{
 h1 {
 	font-family: 'Dancing Script';
 	font-size: 70px;
-	color: #ffd633;
+	/*color: #ffd633;*/
+	color: #634491;
 	font-weight: bold;
 }
 
@@ -51,9 +52,14 @@ h1 {
 
 }
 
+li{
+	list-style: none;
+
+}
+
 .date-and-time li{
 	display: inline;
-	list-style: none;
+
 }
 
 
@@ -116,6 +122,7 @@ padding:18px;
 color: black;
 
 }
+
 
 
 .nav, .nav  {
@@ -312,7 +319,7 @@ footer {
 }
 
 .card-text{
-	font-size: 16px;
+	font-size: 14px;
 }
 
 .card-link{
@@ -448,7 +455,6 @@ footer {
 	 display: flex;
 	 align-items: stretch;
 	 justify-content: space-between;
-	 margin: 0 100px;
  }
 
 	/* entire container, keeps perspective */
