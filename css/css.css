@@ -264,10 +264,15 @@ footer {
 	padding-top:15px;
 	}
 
+
 .jumbotron  {
 	background-color: white;
 	padding-bottom: 0px;
+	margin-top: 20px;
+}
 
+.jumbotron-index{
+	margin-top: 0px;
 }
 
 .jumbotron .text-area {
@@ -421,6 +426,11 @@ footer {
 	}
 }
 
+@media(min-width: 768px){
+	.jumbotron{
+		margin-top: 0px;
+	}
+}
 
 @media (min-width: 765px) and (max-width: 785px){
 	.nav ul li a{
