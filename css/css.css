@@ -124,6 +124,13 @@ color: black;
 }
 
 
+.hackney-logo{
+	vertical-align: middle;
+	height: 70px;
+	margin: 20px 10px;
+	float: right;
+
+}
 
 .nav, .nav  {
 	background-color: #10632F;
@@ -352,8 +359,10 @@ footer {
 }
 
 .portrait {
+	height: 250px;
+	border-radius: 100%;
 	display: block;
-	padding-top: 40px;
+	padding: 5px;
 	margin: auto;
 }
 
@@ -415,6 +424,9 @@ footer {
 	.shop-mobile{
 		display: none;
 	}
+	.hackney-logos{
+		vertical-align: middle;
+	}
 }
 
 @media (max-width: 766px){
@@ -431,6 +443,8 @@ footer {
 		max-width: 300px;
 		margin: auto;
 	}
+
+
 }
 
 @media(min-width: 768px){
